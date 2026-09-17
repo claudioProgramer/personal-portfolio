@@ -2,12 +2,19 @@ cmendieta.dev — Personal Portfolio
 
 Portfolio web personal desarrollado para presentar proyectos, tecnologías y soluciones orientadas a negocios reales, sistemas administrativos y desarrollo web moderno.
 
+👤 Identidad del Proyecto
+
+- Marca profesional: cmendieta.dev
+- GitHub: claudioProgramer
+- Repositorio: claudioProgramer/personal-portfolio
+- Live Site: claudioProgramer.github.io/personal-portfolio
+
 El objetivo de este proyecto es mostrar una identidad profesional limpia, moderna y enfocada en soluciones funcionales aplicadas al mundo real.
 
 🚀 Demo
 
 🌐 Live Site:
-[cmendieta.dev Portfolio](https://cmendieta-py.github.io/personal-portfolio)
+[cmendieta.dev Portfolio](https://claudioProgramer.github.io/personal-portfolio)
 
 ✨ Características
 
@@ -41,25 +48,43 @@ El objetivo de este proyecto es mostrar una identidad profesional limpia, modern
 personal-portfolio/
 │
 ├── index.html
-│
-├── assets/
-│   ├── css/
-│   │   ├── main.css
-│   │   ├── responsive.css
-│   │   ├── variables.css
-│   │   ├── animations/
-│   │   └── ...
-│   │
-│   ├── js/
-│   │   ├── main.js
-│   │   ├── navbar.js
-│   │   ├── reveal.js
-│   │   └── ...
-│   │
-│   └── img/
-│
+├── .gitignore
+├── README.md
 ├── STRUCTURE.md
-└── README.md
+│
+└── assets/
+    ├── css/
+    │   ├── main.css            # Importa todos los archivos CSS
+    │   ├── variables.css
+    │   ├── reset.css
+    │   ├── navbar.css
+    │   ├── hero.css
+    │   ├── skills.css
+    │   ├── projects.css
+    │   ├── about.css
+    │   ├── contact.css
+    │   ├── footer.css
+    │   ├── responsive.css
+    │   ├── README.md           # Documentación CSS
+    │   └── animations/
+    │       ├── keyframes.css
+    │       ├── reveal.css
+    │       ├── typing.css
+    │       ├── particles.css
+    │       └── cursor-glow.css
+    │
+    ├── js/
+    │   ├── main.js             # Punto de entrada (importa los módulos)
+    │   ├── navbar.js
+    │   ├── reveal.js
+    │   ├── typing.js
+    │   ├── particles.js
+    │   ├── cursor-glow.js
+    │   └── README.md           # Documentación JavaScript
+    │
+    └── img/
+        ├── perfil.png
+        └── refrigeracion.png
 ```
 
 ⚙️ Funcionalidades Principales
@@ -98,11 +123,18 @@ El proyecto incluye:
 
 🚀 Instalación Local
 Clonar repositorio:
-git clone https://github.com/cmendieta-py/personal-portfolio.git
+git clone https://github.com/claudioProgramer/personal-portfolio.git
 
 Entrar al proyecto:
 cd personal-portfolio
 Abrir index.html o usar Live Server en VS Code.
+
+📌 Estado Actual del Proyecto
+
+- Sitio estático en HTML5, CSS3 y JavaScript ES6 Modules (sin frameworks)
+- Arquitectura modular de CSS y JavaScript estable y documentada
+- Referencias de identidad y enlaces de GitHub actualizados (marca: cmendieta.dev / GitHub: claudioProgramer)
+- En preparación: actualización manual del contenido profesional (descripción, timeline, skills, proyectos y datos de contacto)
 
 📌 Objetivo del Proyecto
 
@@ -114,7 +146,7 @@ Este portfolio forma parte de una evolución profesional orientada a:
 - Aplicaciones orientadas a negocios reales
 
 📬 Contacto
-GitHub [Mi Perfil](https://github.com/cmendieta-py?utm_source=chatgpt.com)
+GitHub: [claudioProgramer](https://github.com/claudioProgramer)
 
 LinkedIn: Agregar perfil profesional próximamente.
 

@@ -3,7 +3,7 @@
 ## 📁 Árbol de Archivos
 
 ```
-portfolio-personal/
+personal-portfolio/
 │
 ├── index.html                 # Archivo principal HTML
 │
@@ -42,10 +42,9 @@ portfolio-personal/
 │       ├── cursor-glow.js     # Cursor glow
 │       └── README.md          # Documentación JavaScript
 │
-├── style.css                  # ⚠️ DEPRECADO (usa assets/css/main.css)
-├── script.js                  # ⚠️ DEPRECADO (usa assets/js/main.js)
-│
-└── README.md                  # Este archivo
+├── .gitignore                 # Archivos y rutas ignoradas por Git
+├── STRUCTURE.md               # Este archivo
+└── README.md                  # Documentación principal del proyecto
 
 
 ```
@@ -111,7 +110,7 @@ portfolio-personal/
 
 - ✅ `main.css` siempre debe estar en `index.html`
 - ✅ `main.js` siempre debe estar con `type="module"`
-- ⚠️ No edites directamente `style.css` ni `script.js`
+- ⚠️ Ya no existen `style.css` ni `script.js`: edita siempre `assets/css/` y `assets/js/`
 - 🎨 Las variables globales están en `variables.css`
 - 📱 Los media queries están en `responsive.css`
 - ✨ Las animaciones están agrupadas en `animations/`
