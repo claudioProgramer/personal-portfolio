@@ -9,8 +9,10 @@ personal-portfolio/
 │
 ├── assets/
 │   ├── img/                   # Imágenes del proyecto
-│   │   ├── perfil.png
-│   │   └── refrigeracion.png
+│   │   ├── perfil.png         # Foto de perfil (pendiente de reemplazo)
+│   │   ├── refrigeracion.png  # Imagen sin uso actual (proyecto anterior)
+│   │   ├── samagpspy.png      # ⚠️ PENDIENTE: captura de SamaGPSpy
+│   │   └── certificates/      # ⚠️ PENDIENTE: imágenes y QR de certificados
 │   │
 │   ├── css/                   # Estilos organizados por componentes
 │   │   ├── main.css           # ← Importa todos los demás archivos
@@ -23,6 +25,7 @@ personal-portfolio/
 │   │   ├── about.css          # Sección about y timeline
 │   │   ├── contact.css        # Cards de contacto
 │   │   ├── footer.css         # Footer
+│   │   ├── certifications.css # Formación y certificaciones
 │   │   ├── responsive.css     # Media queries
 │   │   ├── README.md          # Documentación CSS
 │   │   │

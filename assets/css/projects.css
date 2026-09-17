@@ -136,3 +136,103 @@
 
     flex-wrap: wrap;
 }
+
+
+/* ========================= */
+/* CAPTURA PENDIENTE */
+/* ========================= */
+
+.project-media-placeholder {
+
+    height: 350px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 12px;
+
+    padding: 20px;
+
+    text-align: center;
+
+    background: rgba(124, 58, 237, 0.08);
+
+    border-bottom: 1px dashed rgba(124, 58, 237, 0.4);
+
+    color: var(--primary-color);
+}
+
+
+.project-media-placeholder i {
+
+    font-size: 3.5rem;
+}
+
+
+.project-media-placeholder span {
+
+    color: var(--text-color);
+
+    font-size: 1rem;
+
+    letter-spacing: 1px;
+}
+
+
+.project-media-placeholder small {
+
+    color: var(--text-secondary);
+
+    font-family: "Consolas", "Courier New", monospace;
+
+    font-size: 0.8rem;
+}
+
+
+/* ========================= */
+/* SUBTITULO DEL PROYECTO */
+/* ========================= */
+
+.project-content .project-subtitle {
+
+    color: var(--primary-color);
+
+    font-size: 0.95rem;
+
+    letter-spacing: 1px;
+
+    margin-bottom: 20px;
+}
+
+
+/* ========================= */
+/* ARQUITECTURA DEL PROYECTO */
+/* ========================= */
+
+.project-content .project-architecture {
+
+    font-family: "Consolas", "Courier New", monospace;
+
+    font-size: 0.9rem;
+
+    color: #c4b5fd;
+
+    text-align: center;
+
+    background: rgba(124, 58, 237, 0.12);
+
+    border: 1px dashed rgba(124, 58, 237, 0.35);
+
+    border-radius: 12px;
+
+    padding: 14px 18px;
+
+    white-space: nowrap;
+
+    overflow-x: auto;
+}

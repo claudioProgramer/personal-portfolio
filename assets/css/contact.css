@@ -90,3 +90,31 @@
 
     line-height: 1.7;
 }
+
+
+/* ========================= */
+/* CONTACT CARD COMO ENLACE */
+/* ========================= */
+
+a.contact-card {
+
+    display: block;
+
+    text-decoration: none;
+
+    color: inherit;
+
+    cursor: pointer;
+}
+
+
+a.contact-card h3 {
+
+    transition: 0.3s;
+}
+
+
+a.contact-card:hover h3 {
+
+    color: var(--primary-color);
+}

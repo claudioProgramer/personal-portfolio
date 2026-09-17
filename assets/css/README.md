@@ -14,6 +14,7 @@ assets/css/
 ├── about.css                # Sección about y timeline
 ├── contact.css              # Cards de contacto
 ├── footer.css               # Footer y redes sociales
+├── certifications.css       # Sección de formación y certificaciones
 ├── responsive.css           # Media queries para todas las secciones
 └── animations/              # Carpeta de animaciones
     ├── keyframes.css        # Keyframes compartidos (ej: floatImage)
@@ -56,6 +57,7 @@ main.css
 ├── about.css (usa variables)
 ├── contact.css (usa variables)
 ├── footer.css (usa variables)
+├── certifications.css (usa variables)
 └── animations/
     ├── keyframes.css (keyframes compartidos)
     ├── reveal.css (depende de nada)

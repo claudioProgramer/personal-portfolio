@@ -153,3 +153,98 @@
     }
 
 }
+
+
+/* ========================= */
+/* RESPONSIVE - NAVBAR (6 ITEMS) */
+/* ========================= */
+
+@media (max-width: 1200px) {
+
+    .navbar {
+
+        padding: 22px 6%;
+    }
+
+    .nav-links {
+
+        gap: 20px;
+
+        font-size: 0.95rem;
+    }
+
+}
+
+
+/* ========================= */
+/* RESPONSIVE - PROYECTO Y CERTIFICACIONES */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+    .certifications {
+
+        padding: 80px 5%;
+    }
+
+    .certifications-grid {
+
+        gap: 25px;
+    }
+
+    .certificate-content {
+
+        padding: 25px;
+    }
+
+    .project-content {
+
+        padding: 30px;
+    }
+
+    .project-content h3 {
+
+        font-size: 1.6rem;
+    }
+
+    .project-media-placeholder {
+
+        height: 240px;
+    }
+
+    .project-content .project-architecture {
+
+        font-size: 0.8rem;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+
+    .certifications {
+
+        padding: 60px 5%;
+    }
+
+    .certificate-image {
+
+        height: 160px;
+    }
+
+    .project-content {
+
+        padding: 22px;
+    }
+
+    .project-media-placeholder {
+
+        height: 200px;
+    }
+
+    .project-media-placeholder i {
+
+        font-size: 2.5rem;
+    }
+
+}

@@ -7,11 +7,11 @@ const typingText = document.getElementById("typing-text");
 
 const words = [
 
-    "Desarrollador Web",
-    "Frontend Moderno",
-    "Automatización",
-    "Sistemas Técnicos",
-    "Soluciones Reales"
+    "Desarrollo Web con Django",
+    "Sistemas Empresariales",
+    "APIs REST & JSON",
+    "Docker & Linux",
+    "GPS & Telemetría"
 
 ];
 

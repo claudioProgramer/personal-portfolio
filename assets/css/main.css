@@ -22,5 +22,8 @@
 @import url('./animations/particles.css');
 @import url('./animations/cursor-glow.css');
 
+/* CERTIFICATIONS */
+@import url('./certifications.css');
+
 /* RESPONSIVE */
 @import url('./responsive.css');
