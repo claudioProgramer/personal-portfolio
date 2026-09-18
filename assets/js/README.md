@@ -8,7 +8,7 @@ assets/js/
 ├── navbar.js            # Lógica del navbar scroll effect
 ├── reveal.js            # Sistema de reveal on scroll
 ├── typing.js            # Efecto de typing animado
-├── particles.js         # Generación de partículas flotantes
+├── particles.js         # Generación de partículas flotantes (caracteres 0/1)
 └── cursor-glow.js       # Efecto de glow que sigue el cursor
 ```
 
@@ -78,9 +78,11 @@ window.addEventListener("evento", miLogica);
 - **Array**: 5 palabras diferentes que se rotan
 
 ### particles.js
-- **Función**: Genera partículas flotantes en el background
-- **Variables**: `particlesContainer`
+- **Función**: Genera partículas flotantes en el background, cada una con un carácter binario (`0` o `1`)
+- **Variables**: `particlesContainer`, `GLYPH_SCALE`
 - **Selector**: `.particles`
+- **Elemento generado**: `div.particle` (con `textContent` `0` o `1`)
+- **Tamaño**: `size = Math.random() * 8 + 2` → se usa para el `font-size` del carácter (variación pequeño / mediano / grande)
 - **Intervalo**: Crea una partícula cada 300ms
 
 ### cursor-glow.js

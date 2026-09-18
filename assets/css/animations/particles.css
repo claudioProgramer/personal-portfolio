@@ -21,16 +21,25 @@
 
 
 /* ========================= */
-/* PARTICLE */
+/* PARTICLE (CARÁCTER BINARIO) */
 /* ========================= */
 
 .particle {
 
     position: absolute;
 
-    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-    background: rgba(139, 92, 246, 0.25);
+    /* Mismo color que tenían las partículas (rgba de --primary-hover) */
+    color: rgba(139, 92, 246, 0.25);
+
+    font-family: Consolas, Menlo, Monaco, "Courier New", monospace;
+
+    font-weight: 400;
+
+    line-height: 1;
 
     animation: floatParticle linear infinite;
 }
