@@ -64,6 +64,18 @@
 }
 
 
+.project-card img[src$="samagpspy.png"] {
+
+    width: 100%;
+
+    height: auto;
+
+    display: block;
+
+    object-fit: contain;
+}
+
+
 /* ========================= */
 /* CONTENIDO */
 /* ========================= */

@@ -1,0 +1,12 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test:visual": "playwright test",
+    "test:visual:samagpspy": "playwright test tests/samagpspy-image.spec.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  }
+}
